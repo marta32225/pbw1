@@ -1,4 +1,4 @@
-import { Button, Form, Table } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "../assets/css/style.css";
@@ -50,7 +50,7 @@ function FormEP() {
           console.log("fetch aborted.");
         }
       });
-  }, []);
+  }, );
 
   return (
     <div id="formIP">

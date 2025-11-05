@@ -1,7 +1,6 @@
 import "../assets/css/style.css";
-import { useEffect, useState } from "react";
-import { Table, Button } from "react-bootstrap";
-import { useNavigate, Link } from 'react-router-dom';
+import { Table } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 function Home() {
 
