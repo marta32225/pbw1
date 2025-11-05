@@ -1,0 +1,46 @@
+
+*{
+  place-items: center;
+  /*border: 1px solid red;*/
+}
+#container{
+  width: 80dvw;
+}
+#Header{
+  width: 80dvw;
+}
+#Konten{
+	display: inline;
+	justify-content:left;
+}
+#Konten > ol {
+	justify-items:left;
+}
+#Footer{
+  width: 80dvw;
+  background-color: #0d6efd;
+}
+#formIP{
+  display: inline;
+}
+#formIP > form {
+  justify-items: left;
+}
+#formIP > form > table > div{
+  justify-items: left;
+}
+#formBasicText{
+	justify-items: left;
+}
+#fnama{
+	justify-items: left;
+}
+#fk{
+	justify-items: left;
+}
+#faw{
+	justify-items: left;
+}
+.navbar-link:hover {
+  background-color: #0d6efd;
+}
